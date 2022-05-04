@@ -13,9 +13,10 @@ function crearUsuario() {
     this.nombre = opciones.nombre;
     this.email = opciones.email;
     this.password = opciones.password;
-  }; Usuario.prototype.saludar = function() {
-    return "Hola, mi nombre es " + this.nombre;
-  }; return Usuario;
+    Usuario.prototype.saludar = function() {
+      return "Hola, mi nombre es " + this.nombre;
+    }
+  } return Usuario;
 }
 
 function agregarMetodoPrototype(Constructor) {
